@@ -1,0 +1,12 @@
+{
+  "name": "XFree App",
+  "short_name": "XFree",
+  "description": "Talk to X. Local or Cloud. No signup.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050807",
+  "theme_color": "#050807",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
