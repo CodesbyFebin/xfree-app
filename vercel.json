@@ -3,8 +3,10 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/grok", "destination": "/index.html" },
     { "source": "/api/:path*", "destination": "https://www.xfree.in/api/:path*" }
+  ],
+  "redirects": [
+    { "source": "/grok", "destination": "/", "permanent": false }
   ],
   "headers": [
     {
